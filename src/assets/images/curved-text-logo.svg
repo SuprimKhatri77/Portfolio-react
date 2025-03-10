@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <defs>
+    <path id="circle" 
+          d="M 0,80 
+             A 80,80 0 0 1 0,-80 
+             A 80,80 0 0 1 0,80 
+             A 80,80 0 0 1 0,-80 
+             A 80,80 0 0 1 0,80" 
+          fill="none"/>
+  </defs>
+  <text style="font-family: Arial; font-size: 14px; letter-spacing: 0.35em;">
+    <textPath href="#circle" startOffset="0">
+      D J A N G O   W E B   D E V E L O P E R
+    </textPath>
+  </text>
+</svg>

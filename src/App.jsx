@@ -4,20 +4,21 @@ import { faBars, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { faShareFromSquare } from '@fortawesome/free-regular-svg-icons';
 import './styles.css'
 
-import wavingHand from './assets/images/waving-hand.png';
-import heroImage from './assets/images/hero.png';
-import djangoIcon from './assets/images/icon-1.svg';
-import postgresqlIcon from './assets/images/icon-7.svg';
-import pythonIcon from './assets/images/icon-2.svg';
-import javascriptIcon from './assets/images/icon-3.svg';
-import tailwindIcon from './assets/images/icon-4.svg';
-import cssIcon from './assets/images/icon-5.svg';
-import htmlIcon from './assets/images/icon-6.svg';
-import aboutImg from './assets/images/about-img.webp';
-import workingEmoji from './assets/images/working-emoji.png';
-import textSvg from './assets/images/text.svg';
-import project1 from './assets/images/project-1.png';
-import project2 from './assets/images/project-2.png';
+const wavingHand = '/images/waving-hand.png';
+const heroImage = '/images/hero.png';
+const djangoIcon = '/images/icon-1.svg';
+const postgresqlIcon = '/images/icon-7.svg';
+const pythonIcon = '/images/icon-2.svg';
+const javascriptIcon = '/images/icon-3.svg';
+const tailwindIcon = '/images/icon-4.svg';
+const cssIcon = '/images/icon-5.svg';
+const htmlIcon = '/images/icon-6.svg';
+const aboutImg = '/images/about-img.webp';
+const workingEmoji = '/images/working-emoji.png';
+const textSvg = '/images/text.svg';
+const project1 = '/images/project-1.png';
+const project2 = '/images/project-2.png';
+
 
 function App() {
   const [mobileNavVisible, setMobileNavVisible] = useState(false);

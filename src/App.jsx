@@ -137,7 +137,7 @@ function App() {
           </span>
           <p className="text-color max-w-[410px] text-center lg:text-left">Hi, I'm Suprim Khatri. A passionate Django Web Developer with experience in HTML, CSS, and JavaScript, based in Butwal, Nepal. 📍</p>
 
-          <span className="flex gap-5 items-center justify-center lg:justify-start">
+          <span className="flex gap-5 items-center justify-center lg:justify-start hero-social">
             <a href="https://www.linkedin.com/in/suprim-khatri77/" target="_blank" rel="noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-linkedin transition-all duration-[0.4s] ease-in-out hover:scale-125">
                 <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />

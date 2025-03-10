@@ -155,6 +155,9 @@ html.dark .bg-white {
 html.dark .cross-icon svg path {
     fill: #e4e4e4;
 }
+html.dark .hero-social{
+    color:white;
+}
 
 @keyframes fadeIn {
     from {

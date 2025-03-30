@@ -107,7 +107,13 @@ function App() {
         </nav>
       </header>
 
-      <section className={`${mobileNavVisible ? '' : 'hidden'} mob-nav z-20 fixed top-0 left-0 w-full h-screen bg-gray-100 md:hidden`} >
+      <section className={`mob-nav z-20 fixed top-0 right-0 w-3/4 h-screen bg-gray-100 md:hidden 
+      transition-transform duration-300 ease-in-out
+      ${mobileNavVisible ? 'translate-x-0' : 'translate-x-[100%]'}
+      `}>
+
+
+
         <div className="flex flex-col gap-5 px-2">
           <span className="cross-icon py-2 px-2 w-fit rounded-full mt-1 ml-2 cursor-pointer hover:bg-slate-300 transition-colors duration-500 ease-linear" onClick={toggleMobileNav}>
             <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#000">
